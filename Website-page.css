@@ -1,0 +1,96 @@
+header {
+	position: fixed;
+	background-color: gray;
+	width: 100%;
+}
+
+header h2 {
+	text-align: left;
+	margin-left: 15px;
+	vertical-align: middle;
+	display: inline-block;
+}
+
+.nav-link {
+	position: absolute;
+	display: inline-block;
+	right: 15px;
+}
+
+nav a {
+	display: inline-block;
+	text-align: right;
+	padding-right: 10px;
+	text-decoration: none;
+}
+
+header a::after {
+	margin-left: 10px;
+}
+
+header a:hover {
+	color: black;
+}
+
+.search {
+	margin-bottom: 50px;
+	padding-top: 50px;
+	padding-left: 50px;
+}
+
+.search input {
+	height: 40px;
+	width: 400px;
+	font-size: 17px;
+	box-sizing: border-box;
+}
+
+.search-button {
+	font-size: 17px;
+	height: 30px;
+	border: 1px solid black;
+	vertical-align: bottom;
+	height: 100%;
+	size: 50%;
+}
+
+.pages {
+	display: inline-block;
+	font-size: 0;
+	margin-bottom: 30px;
+	margin-left: 50px;
+	border: 1px solid black;
+	padding: 8 15px;
+}
+
+.pages-button {
+	display: inline-block;
+	font-size: 15px;
+	padding: 8px 15px;
+}
+
+.pages-display {
+	font-size: 15px;
+	padding: 0 30px;
+	padding: 8px 25px;
+	border-left: 1px solid black;
+	border-right: 1px solid black;
+}
+
+.job-listings {
+	padding: 0;
+	margin-left: 50px;
+}
+
+.listing {
+	list-style: none;
+	margin-bottom: 15px;
+}
+
+.listing-date {
+	color: gray;
+}
+
+.listing-location {
+	color: gray;
+}
